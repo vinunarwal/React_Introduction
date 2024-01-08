@@ -12,6 +12,7 @@ import UseEffect from './components/Useeffect';
 import UseMemo from './components/Usememo';
 import Interview from './components/Interview';
 import { quesAns } from './components/data/Ques';
+import Main from './components/Main';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <header className="App-header">
         <Navbar/>
         {/*<Sidebar/>*/}
+        <Main/>
         <Intro/>
         <History/>
         <Components/>

@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar';
+import Main from './Main'
 import Intro from './Intro'
 import History from './History';
 import Navbar from './DOM';
@@ -13,6 +14,7 @@ function Home() {
   return (
     <>
     <Navbar/>
+    <Main/>
     <Intro/>
     <History/>
     <DOM/>

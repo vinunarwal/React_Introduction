@@ -1,10 +1,62 @@
 /* -----Navbar---- */
+
 li {
   list-style: none;
 }
 
 .logo {
   width: 50px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* ------------Main------- */
+
+.main_page {
+  /*height: 600px;*/
+  background-image: url(./components/Images/r3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 37%;
+}
+
+.main_txt h1{
+  padding: 11% 7%;
+}
+
+
+@media screen and (min-width: 480px) {
+  .main_page{
+    background-image: url(./components/Images/r4.jpg);
+    /*background-position: center;*/
+  }
+  .main_txt h1{
+    /*padding: 0% 52%;*/
+  }
+  
 }
 
 
@@ -17,26 +69,12 @@ li {
   -webkit-text-fill-color: transparent;
 }
 
-.points {
-  width: 8px;
-  height: 8px;
-  background: rgba(0, 128, 0, 0.6);
-  border-radius: 40%;
-  margin-bottom: 2px;
-  margin-right: 5px;
-  display: inline-flex;
-  justify-content: center;
-  align-items: 'center';
-}
 
 .key_points p {
   padding-top: 15px;
   word-wrap: break-word;
 }
 
-.key_points span {
-  color: brown;
-}
 
 /* -------History------- */
 
@@ -51,23 +89,6 @@ li {
   box-shadow: 8px 9px 10px -5px darkgrey;
 }
 
-.history_points {
-  width: 8px;
-  height: 8px;
-  background: rgba(249, 54, 61, 0.6);
-  border-radius: 40%;
-  margin-bottom: 2px;
-  margin-right: 5px;
-  display: inline-flex;
-  justify-content: center;
-  align-items: 'center';
-}
-
-.point_img {
-  width: 10px;
-  height: 10px;
-}
-
 /* -------DOM-------- */
 
 .dom_heading {
@@ -75,10 +96,4 @@ li {
   background-size: 200% auto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-/* ---------Interview------------ */
-
-.ques h3{
-  padding-top: 20px;
 }

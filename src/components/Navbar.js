@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from './Images/react-logo.png'
+import { Link } from 'react-router-dom'
 
 function Navbar() {
    return (
@@ -32,7 +33,7 @@ function Navbar() {
                                  React Tutorial
                               </button>
                               <div className="dropdown-content">
-                                 <a href="/">Introduction</a>
+                                 <Link to="/Intro">Introduction</Link>
                                  <a href="/">History</a>
                                  <a href="/">Components</a>
                                  <a href="/">DOM</a>

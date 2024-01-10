@@ -1,40 +1,35 @@
 import './index.css';
-import Navbar from './components/Navbar';
-import Sidebar from './components/Sidebar';
-import Intro from './components/Intro'
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from './components/Home';
+import Intro from './components/Intro';
 import History from './components/History';
 import Components from './components/Components';
-import Props from './components/Props';
 import DOM from './components/DOM';
-import UseState from './components/Usestate';
-import Example from './components/Example';
-import UseEffect from './components/Useeffect';
-import UseMemo from './components/Usememo';
-import Interview from './components/Interview';
-import { quesAns } from './components/data/Ques';
-import Main from './components/Main';
+import Props from './components/Props';
+import Usecontext from './components/Usecontext';
+import Usestate from './components/Usestate';
+import Usememo from './components/Usememo';
 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Navbar/>
-        {/*<Sidebar/>*/}
-        <Main/>
-        <Intro/>
-        <History/>
-        <Components/>
-        <Props/>
-        <DOM/>
-        <UseState/>
-        <UseEffect/>
-        <UseMemo/>
-        <Interview data={quesAns} />
-        {/*<Example/>*/}
-      
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />}>
+          <Route path='/Intro' element={<Intro />}></Route>
+          <Route path='/' element={<History />}></Route>
+          <Route path='/' element={<Components />}></Route>
+          <Route path='/' element={<DOM />}></Route>
+          <Route path='/' element={<Props />}></Route>
+          <Route path='/' element={<Usecontext />}></Route>
+          <Route path='/' element={<Usememo />}></Route>
+          <Route path='/' element={<Usestate />}></Route>
+        </Route>
+
+      </Routes>
+    </Router>
+
   );
 }
 

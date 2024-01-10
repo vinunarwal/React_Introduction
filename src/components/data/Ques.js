@@ -179,24 +179,109 @@ export const quesAns = [
         ques: "45. What are controlled and uncontrolled components in React forms?",
         ans: "Controlled components are forms elements whose value is controlled by React state, while uncontrolled components allow the form elements to maintain their own state."
     },
+    {
+        ques:"46. What is Flux Concept In React?",
+        ans:"Facebook widely uses flux architecture concept for developing client-side webapplications. It is nof a framework or a library. It is simply a new kind of architecture that complements React and the concept of Unidirectional Data Flow."
+    },
+    {
+        ques:"47. Define the term Redux in React",
+        ans:"Redux is a library used for front end development. It is a state container for JavaScriptapplications which should be used for the applications state management. You can test and run an application developed with Redux in different environments."
+    },
+    {
+        ques:"48. What is the 'Store' feature in Redux?",
+        ans:"Redux has a feature called 'Store' which allows you to save the application's entire State at one place. Therefore all it's component's State are stored in the Store so that you will get regular updates directly from the Store. The single state tree helps you to keep track of changes over time and debug or inspect the application."
+    },
+    {
+        ques:"49. What is an action in Redux?",
+        ans:"It is a function which returns an action object. The action-type and the action data are always stored in the action object. Actions can send data between the Store and the software application. All information retrieved by the Store is produced by the actions."
+    },
+    {
+        ques:"50. Explain the term stateless components.",
+        ans:"Stateless components are pure functions that render DOM-based solely on the properties provided to them."
+    },
+    {
+        ques:"51. What is meant by callback function? What is its purpose?",
+        ans:"A callback function should be called when setState has finished, and the component is retendered. As the setState is asynchronous, which is why it takes in a second callback function."
+    },
+    {
+        ques:"52. Explain synthetic event in React js.",
+        ans:"Synthetic event is a kind of object which acts as a cross-browser wrapper around the browser's native event. It also helps us to combine the behaviors of various browser into signal API."
+    },
+    {
+        ques:"53. Whatis React State?",
+        ans:"It is an object which decides how a specific component renders and how it behaves. The state stores the information which can be changed over the lifetime of a React component."
+    },
+    {
+        ques:"54. How can you update state in react js?",
+        ans:"A state can be updated on the component directly or indirectly."
+    },
+    {
+        ques:"55. Explain the use of the arrow function in React.",
+        ans:"The arrow function helps you to predict the behavior of bugs when passed as a callback. Therefore, it prevents bug caused by this all together."
+    },
+    {
+        ques:"56. Explain pure components in React js.",
+        ans:"Pure components are the fastest components which can replace any component with only a render(). It helps you to enhance the simplicity of the code and performance of the application."
+    },
+    {
+        ques:"57. What is 'create-react-app'?",
+        ans:"‘create-react-app' is a command-line tool which allows you to create one basic react application."
+    },
+    {
+        ques:"58. Explain the use of ‘key’ in react list.",
+        ans:"Keys allow you to provide each list element with a stable identity. The keys should be unique."
+    },
+    {
+        ques:"59. Explain error boundaries?",
+        ans:"Error boundaries help you to catch Javascript error anywhere in the child components.They are most used to log the error and show a fallback UI."
+    },
+
+    {
+        ques:"60. What is the use of empty tags ?",
+        ans:"Empty tags are used in React for declaring fragments."
+    },
+    {
+        ques:"61. Explain strict mode.",
+        ans:"StrictMode allows you to run checks and warnings for react components. It runs only on development build. It helps you to highlight the issues without rendering any visible Ul."
+    },
+    {
+        ques:"62. What are reacted portals?",
+        ans:"Portal allows you to render children into a DOM node. CreatePortalmethod is used for it."
+    },
+    {
+        ques:"63. What is Context?",
+        ans:"React context helps you to pass data using the tree of react components. It helps you to share data globally between various react components."
+    },
+    {
+        ques:"64. What is the use of Webpack?",
+        ans:"Webpack in basically is a module builder. It is mainly runs during the development process."
+    },
+    {
+        ques:"65. What is Babel in React js?",
+        ans:"Babel, is a JavaScript compiler that converts latest JavaScript like ES6, ES7 into plain old ES5 JavaScript that most browsers understand."
+    },
+    {
+        ques:"66. How can a browser read JSX file ?",
+        ans:"If you want the browser to read JSX, then that JSX file should be replaced using a JSX transformer like Babel and then send back to the browser."
+    },
+    {
+        ques:"67. What is the reduction?",
+        ans:"The reduction is an application method of handling State."
+    },
+    {
+        ques:"68. Explain the term reconciliation.",
+        ans:"When a component's state or props change then rest will compare the rendered element with previously rendered DOM and will update the actual DOM if it is needed. This process is known as reconciliation."
+    },
+    {
+        ques:"69. How can you re-render a component without using setState() function?",
+        ans:"You can use forceUpdate() function for re-rending any component."
+    },
     //{
-    //    ques:"46. ",
+    //    ques:"70. ",
     //    ans:""
     //},
     //{
-    //    ques:"47. ",
-    //    ans:""
-    //},
-    //{
-    //    ques:"48. ",
-    //    ans:""
-    //},
-    //{
-    //    ques:"49. ",
-    //    ans:""
-    //},
-    //{
-    //    ques:"50. ",
+    //    ques:"71. ",
     //    ans:""
     //},
 

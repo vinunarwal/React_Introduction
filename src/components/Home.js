@@ -1,4 +1,5 @@
 import React from 'react'
+
 import Navbar from './Navbar';
 import Main from './Main'
 import Intro from './Intro'
@@ -10,6 +11,8 @@ import Usestate from './Usestate';
 import Useeffect from './Useeffect';
 import Usecontext from './Usecontext';
 import Usememo from './Usememo';
+import Interview from './Interview';
+
 function Home() {
   return (
     <>
@@ -24,6 +27,7 @@ function Home() {
     <Useeffect/>
     <Usecontext/>
     <Usememo/>
+    <Interview/>
     </>
 
   )

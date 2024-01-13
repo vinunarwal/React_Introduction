@@ -1,6 +1,7 @@
 import React from 'react'
+import { quesAns } from './data/Ques'
 
-const Interview = (props) => {
+const Interview = () => {
   return (
     <>
       <div className='container'>
@@ -10,7 +11,7 @@ const Interview = (props) => {
         <div className='row mt-6 flex flex-wrap-reverse justify-center items-center gap-3 pt-6 m-1'>
           <div className='col-md-11 p-4 relative text-lg bg-blue-100 history_box'>
             {
-              props.data.map((interview, index) => {
+              quesAns.map((interview, index) => {
                 return (
 
                   <div key={index} className='ques'>

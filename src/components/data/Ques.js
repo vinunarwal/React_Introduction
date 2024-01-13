@@ -225,10 +225,10 @@ export const quesAns = [
     },
     {
         ques:"57. What is 'create-react-app'?",
-        ans:"‘create-react-app' is a command-line tool which allows you to create one basic react application."
+        ans:"create-react-app is a command-line tool which allows you to create one basic react application."
     },
     {
-        ques:"58. Explain the use of ‘key’ in react list.",
+        ques:"58. Explain the use of key in react list.",
         ans:"Keys allow you to provide each list element with a stable identity. The keys should be unique."
     },
     {
@@ -276,14 +276,4 @@ export const quesAns = [
         ques:"69. How can you re-render a component without using setState() function?",
         ans:"You can use forceUpdate() function for re-rending any component."
     },
-    //{
-    //    ques:"70. ",
-    //    ans:""
-    //},
-    //{
-    //    ques:"71. ",
-    //    ans:""
-    //},
-
-
 ]

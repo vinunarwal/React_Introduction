@@ -3,11 +3,11 @@ import Image_1 from './Images/react_img.png'
 
 function Intro() {
   return (
-    <div className='container react_intro'>
+    <div className='container'>
       <div>
-        <h1 className='intro_heading text-center text-5xl font-bold animate-pulse'>Introduction</h1>
+        <h1 className='intro_heading text-center text-5xl font-bold mt-4'>Introduction</h1>
         <div className='row mt-6 flex flex-wrap-reverse justify-center items-center gap-3 pt-6'>
-          <div className='col-md-5 key_points p-4 relative text-lg bg-red-100'>
+          <div className='col-md-5 key_points p-4 relative text-lg bg-blue-100'>
             <h2 className='text-xl text-green-600 font-semibold animate-bounce'>Key Points : </h2>
 
             <p>✅ React is a JavaScript library for building user interfaces.</p>

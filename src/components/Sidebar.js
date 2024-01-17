@@ -13,7 +13,7 @@ function Sidebar() {
                 <li><a href='/'>React Maps</a></li>
                 <li><a href='/'>Role of Objects</a></li>
                 <li><a href='/'>DOM</a></li>
-                <li><a href='/'>Proper Drilling</a></li>
+                <li><a href='/'>Props Drilling</a></li>
                 <li><a href='/'>Conditional Rendering</a></li>
                 <li><a href='/'>React Routing</a></li>
                 <li><a href='/'>CallBack Function</a></li>

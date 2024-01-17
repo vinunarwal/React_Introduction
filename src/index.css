@@ -97,3 +97,14 @@ li {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+
+.example{
+  width: 70%;
+}
+
+.ex{
+  width: 85%;
+  height: 280px;
+
+}

@@ -5,9 +5,9 @@ function Props() {
   return (
     <>
     <div className='container'>
-    <h1 className='intro_heading text-center text-5xl font-bold'>Props</h1>
-        <div className='row justify-center items-center mt-4 mx-1'>
-            <div className='col-md-11 text-lg p-4 bg-green-100 mb-4 history_box'>
+    <h1 className='intro_heading text-center text-5xl font-bold mt-4'>Props</h1>
+        <div className='row justify-center items-center mt-4'>
+            <div className='col-md-11 text-lg p-4 bg-blue-100 mb-4 history_box'>
                 <p>✅ "props" is short for properties.</p>
                 <p>✅ Props are a mechanism for passing data from a parent component to a child component. </p>
                 <p>✅ Props are a way to communicate and share information between different parts of your React application.</p>

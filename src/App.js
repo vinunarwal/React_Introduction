@@ -8,9 +8,10 @@ import Components from './components/Components';
 import Props from './components/Props';
 import Usestate from './components/Usestate';
 import Useeffect from './components/Useeffect';
-//import Usecontext from './components/Usecontext';
+import Usecontext from './components/Usecontext';
 import Usememo from './components/Usememo';
 import Interview from './components/Interview';
+import PropsDrilling from './components/PropsDrilling';
 
 function App() {
   return (
@@ -22,9 +23,10 @@ function App() {
     <DOM/>
     <Components/>
     <Props/>
+    <PropsDrilling />
     <Usestate/>
     <Useeffect/>
-    {/*<Usecontext/>*/}
+    <Usecontext/>
     <Usememo/>
     <Interview/>
     </>

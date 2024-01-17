@@ -1,6 +1,6 @@
 import React from 'react'
 import DOM_structure from './Images/DOM.png'
-import DOM_Example from './Images/DOM_eg.png'
+import DOM_Example from './Images/domeg1.png'
 
 function DOM() {
    return (
@@ -11,7 +11,8 @@ function DOM() {
                <div className='col-md-11 text-lg py-4 px-4 bg-blue-100 history_box'>
                   <p><span>✅</span> DOM stands for Document Object Model</p>
                   <p><span>✅</span> It represents the structure of a document as a tree of objects, where each object corresponds to a part of the document, such as elements, attributes, and text. </p>
-                  <p className='flex justify-center items-center py-3'> <img src={DOM_structure} alt='Not Found'></img></p>
+                  <p className='flex justify-center items-center py-3'>
+                     <img className='hover:scale-110' src={DOM_structure} alt='Not Found'></img></p>
                   <p>There are two types of DOM :</p>
                   <h3 className='pt-1'>1. Real DOM</h3>
                   <h3 className=''>2. Virtual DOM</h3>
@@ -24,7 +25,7 @@ function DOM() {
                   <p><span>✅</span> All UI components need to be re-rendered for every DOM update.</p>
                   <p className='py-2'>Example of DOM: </p>
                   <p className='flex justify-center items-center py-3'>
-                     <img src={DOM_Example} alt='Not Found'></img></p>
+                     <img className='example' src={DOM_Example} alt='Not Found'></img></p>
                   <h2 className='text-red-500 text-xl py-2'>Virtual DOM :</h2>
                   <p><span>✅</span> Virtual DOM is the virtual representation of Real DOM.</p>
                   <p><span>✅</span> React update the state changes in Virtual DOM first and then it syncs with Real DOM.</p>

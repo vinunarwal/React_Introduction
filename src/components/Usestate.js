@@ -15,8 +15,10 @@ function Usestate() {
             <p className='pl-7'>2. and a function that lets you update it.</p>
             <p className='pl-7 py-2'>Example of UseState :</p>
             <div className=''>
-              <p className='flex justify-center items-center py-3'><img className='example' src={Example_usestate} alt='Not Found..'></img></p>
-              <p className='flex justify-center items-center py-3'><img src={Output_usestate} alt='Not Found..'></img></p>
+              <p className='flex justify-center items-center py-3'>
+                <img className='example' src={Example_usestate} alt='Not Found..'></img></p>
+              <p className='flex justify-center items-center py-3'>
+                <img src={Output_usestate} alt='Not Found..'></img></p>
             </div>
           </div>
         </div>

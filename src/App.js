@@ -12,6 +12,7 @@ import Usecontext from './components/Usecontext';
 import Usememo from './components/Usememo';
 import Interview from './components/Interview';
 import PropsDrilling from './components/PropsDrilling';
+import Useref from './components/Useref';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
     <Useeffect/>
     <Usecontext/>
     <Usememo/>
+    <Useref />
     <Interview/>
     </>
   );

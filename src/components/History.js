@@ -6,7 +6,8 @@ function History() {
          <div className='container'>
             <h1 className='history_heading text-center text-5xl font-bold mt-4'>React History</h1>
 
-            <div className='row mt-6 flex flex-wrap-reverse justify-center items-center gap-3 pt-6'>
+            <div className='row'>
+            <div className='mt-6 flex flex-wrap-reverse justify-center items-center gap-3 pt-6'>
                <div className='col-md-11 key_points p-4 relative text-lg bg-blue-100 history_box mb-4'>
 
                   <h2 className='text-xl text-red-400 font-semibold animate-bounce'>Key Points : </h2>
@@ -20,6 +21,7 @@ function History() {
                   <p>They had the model right, but they needed to do something about user experience. So, Jordan Walke built a prototype that made the process more efficient, and this marks the birth of React js.</p>
 
                </div>
+            </div>
             </div>
          </div>
       </>

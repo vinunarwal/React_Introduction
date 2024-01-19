@@ -8,7 +8,7 @@ function CallbackFn() {
          <div className='container'>
             <h1 className='intro_heading text-center text-5xl font-bold mt-4'>Callback Function</h1>
             <div className='row flex justify-center items-center pt-6'>
-               <div className='col-md-11 text-lg bg-blue-100 py-4 history_box'>
+               <div className='col-md-11 text-lg bg-blue-100 py-4 history_box mb-4'>
                   <p>✅ A callback function is a function that is passed as a parameter to another function or component.</p>
                   <p>✅ Callback functions are commonly used in React to handle events, asynchronous operations, and to communicate between parent and child components.</p>
                   <p className='pl-4 py-1'>Here are a few scenarios where callback functions are commonly used in React :</p>

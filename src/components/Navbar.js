@@ -91,6 +91,8 @@ function Navbar() {
                         <Link to="/Components">Components</Link>
                         <Link to="/DOM">DOM</Link>
                         <Link to="/Props">Props</Link>
+                        <Link to="/PropsDrilling">Props Drilling</Link>
+                        <Link to="/CallbackFn">Callback Function</Link>
                      </div>
                   </div>
 

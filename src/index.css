@@ -68,12 +68,13 @@ li {
   -webkit-text-fill-color: transparent;
 }
 
-
-.key_points p {
+.intro_box{
+  border-radius: 5px 50px;
+}
+.key_points p{
   padding-top: 15px;
   word-wrap: break-word;
 }
-
 
 /* -------History------- */
 

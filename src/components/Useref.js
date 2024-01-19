@@ -7,7 +7,7 @@ function Useref() {
             <div className='container'>
                 <h1 className='intro_heading text-center text-5xl font-bold mt-4'>UseRef Hook</h1>
                 <div className='row flex justify-center items-center pt-6'>
-                    <div className='col-md-11 text-lg bg-blue-100 py-4 history_box'>
+                    <div className='col-md-11 text-lg bg-blue-100 py-4 history_box mb-4'>
                         <p><span>✅</span> It is used to create mutable object references.</p>
                         <p><span>✅</span> It's commonly used for accessing and interacting with the DOM, managing focus, and persisting values across renders without causing re-renders. </p>
                         <p className='pl-6 py-2'>Example of UseRef :</p>

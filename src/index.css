@@ -35,7 +35,6 @@ li {
 /* ------------Main------- */
 
 .main_page {
-  /*height: 600px;*/
   background-image: url(./components/Images/r3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -104,7 +103,6 @@ li {
 }
 
 .ex{
-  width: 85%;
-  height: 280px;
-
+  width: 80%;
+  height: 277px;
 }

@@ -7,7 +7,7 @@ function History() {
             <h1 className='history_heading text-center text-5xl font-bold mt-4'>React History</h1>
 
             <div className='row mt-6 flex flex-wrap-reverse justify-center items-center gap-3 pt-6'>
-               <div className='col-md-11 key_points p-4 relative text-lg bg-blue-100 history_box'>
+               <div className='col-md-11 key_points p-4 relative text-lg bg-blue-100 history_box mb-4'>
 
                   <h2 className='text-xl text-red-400 font-semibold animate-bounce'>Key Points : </h2>
                   <p>✅ It was first used on Facebook's newsfeed in 2011.</p>

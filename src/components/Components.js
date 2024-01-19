@@ -1,8 +1,8 @@
 import React from 'react'
 import Example_1 from './Images/funcmp1.png'
-import Example_2 from './Images/fn.eg.png'
+import Example_2 from './Images/fn1.png'
 import Example_3 from './Images/clscmp1.png'
-import Example_4 from './Images/cls_eg.png'
+import Example_4 from './Images/clscmp2.png'
 
 function Components() {
   return (
@@ -31,8 +31,7 @@ function Components() {
             <br />
             <p className='p-2'>Example :</p>
             <p className='flex justify-center items-center py-3'>
-              <img src={Example_2} alt='Not Found'></img></p>
-
+              <img className='example' src={Example_2} alt='Not Found'></img></p>
             <h2 className='pt-4 pb-2 text-2xl text-green-600'>Class Components:</h2>
 
             <p>✅ The class components are a little more complex than the functional components. The functional components are not aware of the other components in your program whereas the class components can work with each other.</p>
@@ -45,7 +44,7 @@ function Components() {
             <br />
             <p className='p-2'>Example :</p>
             <p className='flex justify-center items-center py-3'>
-              <img src={Example_4} alt='Not Found'></img></p>
+              <img className='example' src={Example_4} alt='Not Found'></img></p>
           </div>
         </div>
 

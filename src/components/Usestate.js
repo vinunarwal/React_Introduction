@@ -8,7 +8,7 @@ function Usestate() {
       <div className='container'>
         <h1 className='intro_heading text-center text-5xl font-bold mt-4'>UseState Hook</h1>
         <div className='row flex justify-center items-center pt-6'>
-          <div className='col-md-11 text-lg bg-blue-100 py-4 history_box'>
+          <div className='col-md-11 text-lg bg-blue-100 py-4 history_box mb-4'>
             <p><span>✅</span> It is a built-in hook that allows functional components to have state variables.</p>
             <p><span>✅</span> It is a function that takes an initial state as an argument and returns an array with two elements: </p>
             <p className='pl-7'>1. the current state value,</p>

@@ -6,7 +6,7 @@ function Intro() {
     <div className='container'>
       <div>
         <h1 className='intro_heading text-center text-5xl font-bold mt-4'>Introduction</h1>
-        <div className='row mt-6 flex flex-wrap-reverse justify-center items-center gap-3 pt-6'>
+        <div className='row mt-6 flex flex-wrap-reverse justify-center items-center gap-3 pt-6 mb-4'>
           <div className='col-md-5 key_points p-4 relative text-lg bg-blue-100'>
             <h2 className='text-xl text-green-600 font-semibold animate-bounce'>Key Points : </h2>
 

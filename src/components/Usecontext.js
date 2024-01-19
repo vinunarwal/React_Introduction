@@ -9,7 +9,7 @@ function Usecontext() {
       <div className='container'>
         <h1 className='intro_heading text-center text-5xl font-bold mt-4'>UseContext Hook</h1>
         <div className='row flex justify-center items-center pt-6'>
-          <div className='col-md-11 text-lg bg-blue-100 py-4 history_box'>
+          <div className='col-md-11 text-lg bg-blue-100 py-4 history_box mb-4'>
             <p>✅ It is used to consume values from a React context.</p>
             <p>✅ It allows functional components to subscribe to a context and read its current value.</p>
             <p>✅ This hook is particularly useful when you have a global state or configuration that you want to share across multiple components without passing props through the entire component tree.</p>

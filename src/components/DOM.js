@@ -8,12 +8,12 @@ function DOM() {
          <div className='container'>
             <h1 className='dom_heading text-center text-5xl font-bold mt-4'>React DOM</h1>
             <div className='row my-3 justify-center items-center mt-4'>
-               <div className='col-md-11 text-lg py-4 px-4 bg-blue-100 history_box'>
+               <div className='col-md-11 text-lg py-4 px-4 bg-blue-100 history_box mb-4'>
                   <p><span>✅</span> DOM stands for Document Object Model</p>
                   <p><span>✅</span> It represents the structure of a document as a tree of objects, where each object corresponds to a part of the document, such as elements, attributes, and text. </p>
                   <p className='flex justify-center items-center py-3'>
                      <img className='hover:scale-110' src={DOM_structure} alt='Not Found'></img></p>
-                  <p>There are two types of DOM :</p>
+                  <p className='pt-3'>There are two types of DOM :</p>
                   <h3 className='pt-1'>1. Real DOM</h3>
                   <h3 className=''>2. Virtual DOM</h3>
                   <h2 className='text-red-500 text-xl py-2'>Real DOM :</h2>

@@ -8,7 +8,7 @@ const Interview = () => {
         <h1 className='history_heading text-center text-4xl font-bold mt-4'>Interview Questions</h1>
         <h2 className='text-xl text-red-400 font-semibold pb-2 pt-3 md:px-10'>Front-end Interview Questions: </h2>
         <div className='row mt-6 flex flex-wrap-reverse justify-center items-center gap-3 pt-6'>
-          <div className='col-md-11 p-4 relative text-lg bg-blue-100 history_box'>
+          <div className='col-md-11 p-4 relative text-lg bg-blue-100 history_box mb-4'>
             {
               quesAns.map((interview, index) => {
                 return (

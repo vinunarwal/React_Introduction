@@ -34,10 +34,12 @@ function Navbar() {
                               </button>
                               <div className="dropdown-content">
                                  <Link to="/Intro">Introduction</Link>
-                                 <a href="/">History</a>
-                                 <a href="/">Components</a>
-                                 <a href="/">DOM</a>
-                                 <a href="/">Props</a>
+                                 <Link to="/History">History</Link>
+                                 <Link to="/Components">Components</Link>
+                                 <Link to="/DOM">DOM</Link>
+                                 <Link to="/Props">Props</Link>
+                                 <Link to="/PropsDrilling">Props Drilling</Link>
+                                 <Link to="/CallbackFn">Callback Function</Link>
                               </div>
                            </div>
 
@@ -46,10 +48,10 @@ function Navbar() {
                                  Hooks
                               </button>
                               <div className="dropdown-content">
-                                 <a href="/">UseState</a>
-                                 <a href="/">UseEffect</a>
-                                 <a href="/">UseContext</a>
-                                 <a href="/">UseMemo</a>
+                                 <Link to="/Usestate">UseState</Link>
+                                 <Link to="/Useeffect">UseEffect</Link>
+                                 <Link to="/Usecontext">UseContext</Link>
+                                 <Link to="/Usememo">UseMemo</Link>
                               </div>
                            </div>
 
@@ -57,7 +59,7 @@ function Navbar() {
                               <button className="dropbtn cursor-pointer text-lg text-black hover:bg-gray-400 px-3 py-2 font-medium rounded-md">
                                  Interview</button>
                               <div className="dropdown-content">
-                                 <a href="/">Interview Q/A</a>
+                                 <Link to="/Interview">Interview Q/A</Link>
                               </div>
                            </div>
 
@@ -77,18 +79,18 @@ function Navbar() {
             <div className="sm:hidden" id="mobile-menu">
                <div className="space-y-1 px-2 pb-3 pt-2">
 
-                  <a href="/" className="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">React</a>
+                  <Link to="/" className="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">React</Link>
 
                   <div className="dropdown relative block">
                      <button className="dropbtn cursor-pointer text-lg text-black hover:bg-gray-400 px-3 py-2 font-medium rounded-md">
                         React Tutorial
                      </button>
                      <div className="dropdown-content">
-                        <a href="/">Introduction</a>
-                        <a href="/">History</a>
-                        <a href="/">Components</a>
-                        <a href="/">DOM</a>
-                        <a href="/">Props</a>
+                        <Link to="/Intro">Introduction</Link>
+                        <Link to="/History">History</Link>
+                        <Link to="/Components">Components</Link>
+                        <Link to="/DOM">DOM</Link>
+                        <Link to="/Props">Props</Link>
                      </div>
                   </div>
 
@@ -97,10 +99,10 @@ function Navbar() {
                         Hooks
                      </button>
                      <div className="dropdown-content">
-                        <a href="/">UseState</a>
-                        <a href="/">UseEffect</a>
-                        <a href="/">UseContext</a>
-                        <a href="/">UseMemo</a>
+                        <Link to="/Usestate">UseState</Link>
+                        <Link to="/Useeffect">UseEffect</Link>
+                        <Link to="/Usecontext">UseContext</Link>
+                        <Link to="/Usememo">UseMemo</Link>
                      </div>
                   </div>
 
@@ -108,7 +110,7 @@ function Navbar() {
                      <button className="dropbtn cursor-pointer text-lg text-black hover:bg-gray-400 px-3 py-2 font-medium rounded-md">
                         Interview</button>
                      <div className="dropdown-content">
-                        <a href="/">Interview Q/A</a>
+                        <Link to="/Interview">Interview Q/A</Link>
                      </div>
                   </div>
 

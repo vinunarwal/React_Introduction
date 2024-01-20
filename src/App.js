@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-//import Main from './components/Main'
+import Home from './components/Home';
 import Intro from './components/Intro'
 import History from './components/History';
 import Components from './components/Components';
@@ -21,6 +21,7 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
+      <Route index element={ <Home/> } />
         <Route path="/Intro" element={<Intro />} />
         <Route path="/History" element={<History />} />
         <Route path='/Props' element={<Props />} />

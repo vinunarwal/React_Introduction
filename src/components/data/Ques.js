@@ -141,8 +141,8 @@ export const quesAns = [
         ans: "Pure components are the fastest components which can replace any component with only a render(). It helps you to enhance the simplicity of the code and performance of the application."
     },
     {
-        ques: "34. Explain the use of key in react list.",
-        ans: "Keys allow you to provide each list element with a stable identity. The keys should be unique."
+        ques: "34. What is the significance of the key prop in React?",
+        ans: "The key prop is used to uniquely identify elements in a list, helping React efficiently update and re-render components."
     },
     {
         ques: "35. Explain the term stateless components.",
@@ -326,12 +326,100 @@ export const quesAns = [
         ques: "76. What are Fragments ?",
         ans: "Fragments refer to a way of grouping multiple elements without introducing an additional parent element. This is particularly useful when you want to return multiple elements from a component or function without creating unnecessary div wrappers."
     },
+    {
+        ques:"77. What is the difference between display: none; and visibility: hidden;?",
+        ans:"display: none; removes the element from the layout, while visibility: hidden; hides the element but preserves its space."
+    },
+    {
+        ques:"78. What is the purpose of the async and defer attributes in a script tag?",
+        ans:"async and defer control how scripts are loaded. async allows the script to be executed asynchronously, while defer defers execution until the HTML parsing is complete."
+    },
+    {
+        ques:"79. What is the role of the viewport meta tag in a web page?",
+        ans:"The viewport meta tag controls the viewport's size and scale, ensuring proper rendering on different devices."
+    },
+    {
+        ques:"80. What is the purpose of the localStorage and sessionStorage objects in JavaScript?",
+        ans:"Both are used for storing data on the client side, but localStorage persists even after the browser is closed, while sessionStorage is limited to a session."
+    },
+    {
+        ques:"81. How does the async/await pattern work in JavaScript?",
+        ans:"async/await is a syntax for working with asynchronous code. The async keyword is used to define a function that returns a promise, and await is used to wait for that promise to resolve."
+    },
+    {
+        ques:"82. Explain the concept of higher-order components (HOCs) in React.",
+        ans:" HOCs are functions that take a component and return a new component with additional features. They enable code reuse and component composition."
+    },
+    {
+        ques:"83. How does React Router work, and what are its key components?",
+        ans:"React Router is a library for handling navigation in React apps. Key components include BrowserRouter, Route, and Link."
+    },
+    {
+        ques:"84. What is the purpose of the Context API in React?",
+        ans:"The Context API provides a way to pass data through the component tree without having to pass props down manually at every level."
+    },
+    {
+        ques:"85. Explain the core principles of Redux.",
+        ans:"Redux follows principles like a single source of truth, state is read-only, and changes are made through pure functions called reducers."
+    },
+    {
+        ques:"86. What is the purpose of the connect function in React Redux?",
+        ans:"The connect function connects a React component to the Redux store, enabling it to access state and dispatch actions."
+    },
+    {
+        ques:"87. What is the purpose of the Redux DevTools extension?",
+        ans:"The Redux DevTools extension allows developers to inspect and debug the state changes in a Redux store."
+    },
+    {
+        ques:"88. What is the significance of the Provider component in React Redux?",
+        ans:"The Provider component wraps the entire application and makes the Redux store available to any nested components that need access to it."
+    },
+    {
+        ques:"89. Explain the concept of 'immutable state' in Redux.",
+        ans:"Immutable state means that the state cannot be changed directly. Instead, new copies of the state are created for each change, ensuring predictable state management."
+    },
+    {
+        ques:"90. How can you optimize the performance of a React Redux application?",
+        ans:"Optimize performance by using the shouldComponentUpdate method, memoization techniques, and selectively connecting components to the Redux "
+    },
+    {
+        ques:"91. What is the purpose of the reselect library in a Redux application?",
+        ans:"reselect is a library that helps create memoized selectors, which efficiently compute derived data from the Redux store."
+    },
+    {
+        ques:"92. How can you handle side effects in Redux?",
+        ans:"Side effects in Redux can be handled using middleware like redux-thunk or redux-saga to manage asynchronous actions or perform tasks outside of the reducer."
+    },
     //{
-    //    ques:"77. ",
+    //    ques:"93. ",
     //    ans:""
     //},
     //{
-    //    ques:"78. ",
+    //    ques:"94. ",
     //    ans:""
     //},
+    //{
+    //    ques:"95. ",
+    //    ans:""
+    //},
+    //{
+    //    ques:"96. ",
+    //    ans:""
+    //},
+    //{
+    //    ques:"97. ",
+    //    ans:""
+    //},
+    //{
+    //    ques:"98. ",
+    //    ans:""
+    //},
+    //{
+    //    ques:"99. ",
+    //    ans:""
+    //},
+    //{
+    //    ques:"100. ",
+    //    ans:""
+    //}
 ]

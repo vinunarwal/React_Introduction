@@ -2,7 +2,7 @@ import React from 'react'
 
 import Main from './Main'
 import Intro from './Intro'
-import History from './Components';
+import History from './History';
 import Components from './Components';
 import DOM from './DOM';
 import Props from './Props';
@@ -33,7 +33,6 @@ function Home() {
     <Useref />
     <Interview/>
     </>
-
   )
 }
 

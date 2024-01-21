@@ -21,19 +21,19 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-      <Route index element={ <Home/> } />
+        <Route index element={<Home />} />
         <Route path="/Intro" element={<Intro />} />
         <Route path="/History" element={<History />} />
-        <Route path='/Props' element={<Props />} />
         <Route path="/Components" element={<Components />} />
         <Route path="/DOM" element={<DOM />} />
+        <Route path='/Props' element={<Props />} />
         <Route path='/PropsDrilling' element={<PropsDrilling />} />
-        <Route path="/Usecontext" element={<Usecontext />} />
+        <Route path='/CallbackFn' element={<CallbackFn />} />
+        <Route path="/Usestate" element={<Usestate />} />
         <Route path="/Useeffect" element={<Useeffect />} />
+        <Route path="/Usecontext" element={<Usecontext />} />
         <Route path='/Usememo' element={<Usememo />} />
         <Route path="/Useref" element={<Useref />} />
-        <Route path="/Usestate" element={<Usestate />} />
-        <Route path='/CallbackFn' element={<CallbackFn />} />
         <Route path='/Interview' element={<Interview />} />
       </Routes>
     </Router>

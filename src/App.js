@@ -15,13 +15,15 @@ import Usecontext from './components/Usecontext';
 import Usememo from './components/Usememo';
 import Useref from './components/Useref';
 import Interview from './components/Interview';
+import Footer from './components/Footer';
+import Redux from './components/Redux';
 
 function App() {
   return (
     <Router>
       <Navbar />
       <Routes>
-        <Route index element={<Home />} />
+        <Route path='/Home' index element={<Home />} />
         <Route path="/Intro" element={<Intro />} />
         <Route path="/History" element={<History />} />
         <Route path="/Components" element={<Components />} />
@@ -34,8 +36,10 @@ function App() {
         <Route path="/Usecontext" element={<Usecontext />} />
         <Route path='/Usememo' element={<Usememo />} />
         <Route path="/Useref" element={<Useref />} />
+        <Route path="/Redux" element={<Redux />} />
         <Route path='/Interview' element={<Interview />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }

@@ -13,25 +13,27 @@ import Useeffect from './Useeffect';
 import Usecontext from './Usecontext';
 import Usememo from './Usememo';
 import Useref from './Useref';
+import Redux from './Redux';
 import Interview from './Interview';
 
 function Home() {
   return (
     <>
-    <Main />
-    <Intro/>
-    <History/>
-    <DOM/>
-    <Components/>
-    <Props/>
-    <PropsDrilling />
-    <CallbackFn />
-    <Usestate/>
-    <Useeffect/>
-    <Usecontext/>
-    <Usememo/>
-    <Useref />
-    <Interview/>
+      <Main />
+      <Intro />
+      <History />
+      <DOM />
+      <Components />
+      <Props />
+      <PropsDrilling />
+      <CallbackFn />
+      <Usestate />
+      <Useeffect />
+      <Usecontext />
+      <Usememo />
+      <Useref />
+      <Redux />
+      <Interview />
     </>
   )
 }

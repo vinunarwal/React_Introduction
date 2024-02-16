@@ -26,7 +26,8 @@ function Navbar() {
                      <div className="hidden sm:ml-6 sm:block">
                         <div className="flex space-x-4">
 
-                           <label className="text-red-500 text-center flex justify-center items-center rounded-md px-3 py-2 text-3xl font-medium"> React</label>
+                           <Link to = "/Home" className="text-red-500 text-center flex justify-center items-center rounded-md px-3 py-2 text-3xl font-medium"> 
+                           React</Link>
 
                            <div className="dropdown relative inline-block">
                               <button className="dropbtn cursor-pointer text-lg text-black hover:bg-gray-400 px-3 py-2 font-medium rounded-md">
@@ -52,6 +53,13 @@ function Navbar() {
                                  <Link to="/Useeffect">UseEffect</Link>
                                  <Link to="/Usecontext">UseContext</Link>
                                  <Link to="/Usememo">UseMemo</Link>
+                              </div>
+                           </div>
+                           <div className="dropdown relative inline-block">
+                              <button className="dropbtn cursor-pointer text-lg text-black hover:bg-gray-400 px-3 py-2 font-medium rounded-md">
+                                 Redux</button>
+                              <div className="dropdown-content">
+                                 <Link to="/Redux">Redux</Link>
                               </div>
                            </div>
 
@@ -105,6 +113,14 @@ function Navbar() {
                         <Link to="/Useeffect">UseEffect</Link>
                         <Link to="/Usecontext">UseContext</Link>
                         <Link to="/Usememo">UseMemo</Link>
+                     </div>
+                  </div>
+
+                  <div className="dropdown relative block">
+                     <button className="dropbtn cursor-pointer text-lg text-black hover:bg-gray-400 px-3 py-2 font-medium rounded-md">
+                        Redux</button>
+                     <div className="dropdown-content">
+                        <Link to="/Interview">Redux</Link>
                      </div>
                   </div>
 

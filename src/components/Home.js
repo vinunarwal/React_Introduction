@@ -15,6 +15,7 @@ import Usememo from './Usememo';
 import Useref from './Useref';
 import Redux from './Redux';
 import Interview from './Interview';
+import Lifecycle from './Lifecycle';
 
 function Home() {
   return (
@@ -32,6 +33,7 @@ function Home() {
       <Usecontext />
       <Usememo />
       <Useref />
+      <Lifecycle />
       <Redux />
       <Interview />
     </>

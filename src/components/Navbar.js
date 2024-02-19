@@ -26,8 +26,8 @@ function Navbar() {
                      <div className="hidden sm:ml-6 sm:block">
                         <div className="flex space-x-4">
 
-                           <Link to = "/Home" className="text-red-500 text-center flex justify-center items-center rounded-md px-3 py-2 text-3xl font-medium"> 
-                           React</Link>
+                           <Link to="/Home" className="text-red-500 text-center flex justify-center items-center rounded-md px-3 py-2 text-3xl font-medium">
+                              React</Link>
 
                            <div className="dropdown relative inline-block">
                               <button className="dropbtn cursor-pointer text-lg text-black hover:bg-gray-400 px-3 py-2 font-medium rounded-md">
@@ -41,6 +41,7 @@ function Navbar() {
                                  <Link to="/Props">Props</Link>
                                  <Link to="/PropsDrilling">Props Drilling</Link>
                                  <Link to="/CallbackFn">Callback Function</Link>
+                                 <Link to="/Lifecycle">Lifecycle of Components</Link>
                               </div>
                            </div>
 

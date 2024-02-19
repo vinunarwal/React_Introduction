@@ -17,6 +17,7 @@ import Useref from './components/Useref';
 import Interview from './components/Interview';
 import Footer from './components/Footer';
 import Redux from './components/Redux';
+import Lifecycle from './components/Lifecycle';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
         <Route path="/Usecontext" element={<Usecontext />} />
         <Route path='/Usememo' element={<Usememo />} />
         <Route path="/Useref" element={<Useref />} />
+        <Route path='/Lifecycle' element={<Lifecycle />} />
         <Route path="/Redux" element={<Redux />} />
         <Route path='/Interview' element={<Interview />} />
       </Routes>

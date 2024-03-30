@@ -3,7 +3,7 @@ import React from 'react'
 function ConditionalRendering() {
   return (
     <>
-    <div className='container'>
+    <div className='container-fluid'>
       <h1 className='intro_heading text-center text-5xl font-bold mt-4'>Conditional Rendering</h1>
       <div className='row flex justify-center items-center pt-6'>
         <div className='col-md-11 text-lg bg-blue-100 py-4 history_box mb-4'>

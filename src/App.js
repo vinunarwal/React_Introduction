@@ -24,7 +24,7 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path='/Home' index element={<Home />} />
+        <Route path='/' element={<Home />} />
         <Route path="/Intro" element={<Intro />} />
         <Route path="/History" element={<History />} />
         <Route path="/Components" element={<Components />} />

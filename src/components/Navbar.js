@@ -26,7 +26,7 @@ function Navbar() {
                      <div className="hidden sm:ml-6 sm:block">
                         <div className="flex space-x-4">
 
-                           <Link to="/Home" className="text-red-500 text-center flex justify-center items-center rounded-md px-3 py-2 text-3xl font-medium">
+                           <Link to="/" className="text-red-500 text-center flex justify-center items-center rounded-md px-3 py-2 text-3xl font-medium">
                               React</Link>
 
                            <div className="dropdown relative inline-block">
